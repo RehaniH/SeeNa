@@ -1,0 +1,420 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grey"
+    android:orientation="vertical"
+    tools:context=".SpecificCategoryActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginBottom="30dp"
+            android:background="@color/colorAccent"
+            android:gravity="center">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Dresses"
+                android:textColor="@color/white"
+                android:textSize="26dp" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="24dp"
+            android:layout_marginBottom="24dp"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <LinearLayout
+
+                android:layout_width="0dp"
+                android:layout_height="240dp"
+                android:layout_marginRight="12dp"
+                android:layout_weight="1"
+                android:background="@drawable/prod_item"
+                android:clickable="true"
+
+                android:onClick="onClick"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="140dp"
+                    android:layout_height="160dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="12dp"
+                    android:layout_marginBottom="12dp"
+                    android:src="@drawable/dress"
+
+                    />
+
+                <TextView
+                    android:id="@+id/name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:layout_marginLeft="10dp"
+                    android:text="Summer Dress"
+                    android:textColor="@color/colorAccent" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/price"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:text="Rs.3000.00"
+                        android:textColor="@color/colorAccent" />
+
+                    <ImageButton
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_marginLeft="10dp"
+                        android:background="@drawable/fav" />
+
+                    <ImageButton
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:layout_marginLeft="10dp"
+                        android:background="@drawable/bag" />
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+
+                android:layout_width="0dp"
+                android:layout_height="240dp"
+                android:layout_marginRight="12dp"
+                android:layout_weight="1"
+                android:background="@drawable/prod_item"
+                android:clickable="true"
+
+                android:onClick="onClick"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="140dp"
+                    android:layout_height="160dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="12dp"
+                    android:layout_marginBottom="12dp"
+                    android:src="@drawable/dress3"
+
+                    />
+
+                <TextView
+                    android:id="@+id/name1"
+                    android:layout_width="wrap_content"
+
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="Evening Dress"
+                    android:textColor="@color/colorAccent" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:text="Rs.3000.00"
+                        android:textColor="@color/colorAccent" />
+
+                    <ImageButton
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_marginLeft="10dp"
+                        android:background="@drawable/fav" />
+
+                    <ImageButton
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:layout_marginLeft="10dp"
+                        android:background="@drawable/bag" />
+
+
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="24dp"
+            android:layout_marginBottom="24dp"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <LinearLayout
+
+                android:layout_width="0dp"
+                android:layout_height="240dp"
+                android:layout_marginRight="12dp"
+                android:layout_weight="1"
+                android:background="@drawable/prod_item"
+                android:clickable="true"
+
+                android:onClick="onClick"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="140dp"
+                    android:layout_height="160dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="12dp"
+                    android:layout_marginBottom="12dp"
+                    android:src="@drawable/dress4"
+
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+
+                    android:text="Double Colour Dress"
+                    android:textColor="@color/colorAccent" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:text="Rs.3000.00"
+                        android:textColor="@color/colorAccent" />
+
+                    <ImageButton
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_marginLeft="10dp"
+                        android:background="@drawable/fav" />
+
+                    <ImageButton
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:layout_marginLeft="10dp"
+                        android:background="@drawable/bag" />
+
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+
+                android:layout_width="0dp"
+                android:layout_height="240dp"
+                android:layout_marginRight="12dp"
+                android:layout_weight="1"
+                android:background="@drawable/prod_item"
+                android:clickable="true"
+
+                android:onClick="onClick"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="140dp"
+                    android:layout_height="160dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="12dp"
+                    android:layout_marginBottom="12dp"
+                    android:src="@drawable/offer"
+
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+
+                    android:text="Summer Stripes Dress"
+                    android:textColor="@color/colorAccent" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:text="Rs.3000.00"
+                        android:textColor="@color/colorAccent" />
+
+                    <ImageButton
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_marginLeft="10dp"
+                        android:background="@drawable/fav" />
+
+                    <ImageButton
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:layout_marginLeft="10dp"
+                        android:background="@drawable/bag" />
+
+
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="24dp"
+            android:layout_marginBottom="24dp"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <LinearLayout
+
+                android:layout_width="0dp"
+                android:layout_height="240dp"
+                android:layout_marginRight="12dp"
+                android:layout_weight="1"
+                android:background="@drawable/prod_item"
+                android:clickable="true"
+
+                android:onClick="onClick"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="140dp"
+                    android:layout_height="160dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="12dp"
+                    android:layout_marginBottom="12dp"
+                    android:src="@drawable/party"
+
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+
+                    android:text="Summer Dress"
+                    android:textColor="@color/colorAccent" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:text="Rs.3000.00"
+                        android:textColor="@color/colorAccent" />
+
+                    <ImageButton
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_marginLeft="10dp"
+                        android:background="@drawable/fav" />
+
+                    <ImageButton
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:layout_marginLeft="10dp"
+                        android:background="@drawable/bag" />
+
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/dresses"
+                android:layout_width="0dp"
+                android:layout_height="240dp"
+                android:layout_marginRight="12dp"
+                android:layout_weight="1"
+                android:background="@drawable/prod_item"
+                android:clickable="true"
+                android:onClick="onClick"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="140dp"
+                    android:layout_height="160dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="12dp"
+                    android:layout_marginBottom="12dp"
+                    android:src="@drawable/home"
+
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+
+                    android:text="Summer Dress"
+                    android:textColor="@color/colorAccent" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:text="Rs.3000.00"
+                        android:textColor="@color/colorAccent" />
+
+                    <ImageButton
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_marginLeft="10dp"
+                        android:background="@drawable/fav" />
+
+                    <ImageButton
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:layout_marginLeft="10dp"
+                        android:background="@drawable/bag" />
+
+
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+
+
+
+
+    </LinearLayout>
+</ScrollView>
